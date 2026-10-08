@@ -114,7 +114,7 @@ formatted_agent_chain = (
 
 # --- 3. FastAPI App ---
 ##Need To Code
-app=FASTAPI()
+app=FastAPI()
 add_routes(app, formatted_agent_chain, path="/agent")
 
 if __name__ == "__main__":
